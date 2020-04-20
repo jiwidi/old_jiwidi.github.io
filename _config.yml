@@ -1,0 +1,41 @@
+layout: sidebar
+style: dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  scope:
+    path: "" # an empty string here means all files in the project
+    type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  limit: 9
+  exclude:
+    archived: true
+    forks: True
+    projects:
+      - jiwidi.github.io
+      - timtim-gift
+      - instagram_messages_parser
+      - Dailypepe
+      - pepeweb
+  include:
+    - scikit-learn/scikit-learn
+    - AlwaysLearningDeeper/Salesforce-Predictive-Modelling
+    - NikeNano/PLS-regression-tensorflow
+
+social_media:
+  stackoverflow: 6643799
+
+topics:
+  - name: Recommendation algorithms
+  - name: Time series forecasting
+  - name: Machine learning in scale
