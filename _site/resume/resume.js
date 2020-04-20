@@ -6,7 +6,7 @@ function downloadResume() {
     request.responseType = 'blob';
     request.open(
         "GET",
-        "https://docs.google.com/document/d/11sHvpwRaWoafEr2k8w5uXaJB0_VuMCtSxQNsErnpet0/export?format=pdf"
+        ""
     );
     request.onload = onDownloaded;
     request.send(null);
