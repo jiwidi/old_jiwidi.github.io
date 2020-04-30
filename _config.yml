@@ -19,8 +19,6 @@ projects:
   sort_by: stars
   limit: 9
   exclude:
-    archived: true
-    forks: True
     projects:
       - jiwidi.github.io
       - timtim-gift
